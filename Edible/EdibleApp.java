@@ -56,14 +56,12 @@ class Apple extends Fruit {
 // Helper Class Person
 class Person {
     private String name;
-    private Edible eat;
 
     public Person(String name) {
         this.name = name;
     }
 
     public String eating(Edible eat) {
-        this.eat = eat;
         return name + " is eating " + eat.howToEat();
     }
 }
